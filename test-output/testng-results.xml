@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-20T16:29:12 IST" name="Suite" finished-at="2024-03-20T16:29:26 IST" duration-ms="13791">
+    <groups>
+    </groups>
+    <test started-at="2024-03-20T16:29:12 IST" name="ChromeTest" finished-at="2024-03-20T16:29:26 IST" duration-ms="13791">
+      <class name="qa.test.Testcase1">
+        <test-method is-config="true" signature="beforetestMethod()[pri:0, instance:qa.test.Testcase1@449a4f23]" started-at="2024-03-20T16:29:12 IST" name="beforetestMethod" finished-at="2024-03-20T16:29:12 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetestMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.test.Testcase1@449a4f23]" started-at="2024-03-20T16:29:12 IST" name="beforeMethod" finished-at="2024-03-20T16:29:18 IST" duration-ms="6224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.test.Testcase1.samplemethod()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="samplemethod()[pri:0, instance:qa.test.Testcase1@449a4f23]" started-at="2024-03-20T16:29:18 IST" name="samplemethod" finished-at="2024-03-20T16:29:25 IST" duration-ms="6533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplemethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.test.Testcase1@449a4f23]" started-at="2024-03-20T16:29:25 IST" name="afterMethod" finished-at="2024-03-20T16:29:25 IST" duration-ms="530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=samplemethod status=SUCCESS method=Testcase1.samplemethod()[pri:0, instance:qa.test.Testcase1@449a4f23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.test.Testcase1@449a4f23]" started-at="2024-03-20T16:29:25 IST" name="afterTest" finished-at="2024-03-20T16:29:26 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa.test.Testcase1 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
